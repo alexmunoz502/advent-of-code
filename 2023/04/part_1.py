@@ -1,6 +1,3 @@
-from pprint import pprint
-
-
 def main() -> None:
     total = 0
 
@@ -15,14 +12,7 @@ def main() -> None:
 
     print(cards)
 
-    # cards = [
-    #     number_list.replace("  ", " ").strip().split(" ")
-    #     for card in cards
-    #     for number_list in card
-    # ]
-
     for card in cards:
-        print(f"CARD: {card}")
         value = 0
         winning_numbers = card[0]
         numbers = card[1]
@@ -34,7 +24,6 @@ def main() -> None:
                     value += value
         total += value
 
-    pprint(cards)
     print(total)
 
 
