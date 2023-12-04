@@ -3,7 +3,6 @@ from dataclasses import dataclass
 
 
 Score = namedtuple("Score", ["value", "matches"])
-Memo = namedtuple("Memo", ["count", "cards"])
 
 
 @dataclass
