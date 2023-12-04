@@ -1,4 +1,4 @@
-from string import punctuation, digits
+from string import digits
 
 SYMBOLS = "*"
 
